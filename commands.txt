@@ -1,0 +1,21 @@
+python3 -m venv ./venv // create virtual environment
+
+source ./venv/bin/activate //activate venv
+deactivate
+
+pip install django
+django-admin help
+django-admin startproject cars .   //start django project
+
+python manage.py runserver //run server
+
+python manage.py collectstatic
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+
+
+
