@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'z4b6x2kf3_#xvii+ar8-weubwo5j-5kpcap7d0d9nm330k5m$8' # use your key
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'carshopdb',
         'USER': 'postgres',
-        'PASSWORD': '', # use your password
+        'PASSWORD': 'abc123', # use your password
         'HOST': 'localhost'
     }
 }
